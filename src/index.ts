@@ -11,8 +11,8 @@ import homeRoute from './routes/homeRoute'
 dotenv.config()
 
 const corsOptions = {
-  origin: ['http://localhost:5173'],
-  credentials: true
+    origin: ['http://localhost:5173'],
+    credentials: true
 }
 
 const PORT = process.env.PORT
@@ -31,11 +31,11 @@ app.use('/auth', authRoute)
 
 // ui routes
 app.use('/auth/login', (_, res) => {
-  res.sendFile(join(__dirname, '../public/index.html'))
+    res.sendFile(join(__dirname, '../public/index.html'))
 })
 
 // server
 server.listen(PORT, () => {
-  // eslint-disable-next-line no-console
-  console.log(`server running on port:${PORT}`)
+    // eslint-disable-next-line no-console
+    console.log(`server running on port:${PORT}`)
 })
