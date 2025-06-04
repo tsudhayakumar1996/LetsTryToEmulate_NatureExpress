@@ -1,0 +1,7 @@
+export const LOGIN = 'Login'
+export const REGISTER = 'Register'
+export const FORGOT_PASS = 'Forgot password'
+export const COMPLETE_REGISTER = 'Complete register'
+export const PASS_CONFIRM = 'Confirm password'
+export const GRANTED = 'granted'
+export const JWT_TOKEN = 'jwtToken'
