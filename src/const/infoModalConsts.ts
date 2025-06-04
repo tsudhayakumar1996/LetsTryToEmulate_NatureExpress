@@ -1,3 +1,0 @@
-export const INFO_VARIANT_MODAL = 'INFO'
-export const ERROR_VARIANT_MODAL = 'ERROR'
-export const SUCCESS_VARIANT_MODAL = 'SUCCESS'
