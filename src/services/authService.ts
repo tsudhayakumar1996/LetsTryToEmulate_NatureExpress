@@ -64,7 +64,7 @@ export const dcdeCookie = ({ cookie }: { cookie: string }) => {
 export const logoutHndlr = async ({ email, res }: { email: string; res: Response }) => {
     await findByEmailAndUpdateIfExistOrCreate({
         email,
-        objToSet: { accessToken: '', expiryDate: 0, refreshToken: '', picture: '', name: '' }
+        objToSet: { accessToken: '', expiryDate: 0, refreshToken: 'hello', picture: '', name: '' }
     })
     clearCookie(res)
 }
