@@ -3,7 +3,6 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import express from 'express'
 import { createServer } from 'node:http'
-// import { join } from 'path'
 import { join } from 'node:path'
 import authRoute from './routes/authRoute'
 import homeRoute from './routes/homeRoute'
@@ -29,8 +28,7 @@ app.use(express.static('public'))
 app.use('/', homeRoute)
 app.use('/auth', authRoute)
 
-// ui routes
-app.use('/auth/login', (_, res) => {
+app.all(/.*/, (_req, res) => {
     res.sendFile(join(__dirname, '../public/index.html'))
 })
 
@@ -39,3 +37,5 @@ server.listen(PORT, () => {
     // eslint-disable-next-line no-console
     console.log(`server running on port:${PORT}`)
 })
+
+// npx eslint --fix /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/index.ts

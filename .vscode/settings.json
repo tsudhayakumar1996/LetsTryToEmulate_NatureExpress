@@ -1,0 +1,16 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortImports": "explicit"
+  },
+  // "eslint.validate": [
+  //   "typescript",
+  //   "typescriptreact"
+  // ],
+  "prettier.requireConfig": true
+}

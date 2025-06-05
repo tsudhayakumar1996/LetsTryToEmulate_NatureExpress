@@ -1,1 +1,0 @@
-import{j as o,B as i}from"./index-D4cGdlsG.js";import{q as a}from"./proxy-CVjzGppc.js";const m=({children:t})=>o.jsx(i,{component:a.div,initial:{opacity:0},animate:{opacity:1},transition:{duration:1},children:t});export{m as A};
