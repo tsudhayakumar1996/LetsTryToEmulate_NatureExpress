@@ -8,7 +8,6 @@ const cors_1 = __importDefault(require("cors"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const express_1 = __importDefault(require("express"));
 const node_http_1 = require("node:http");
-// import { join } from 'path'
 const node_path_1 = require("node:path");
 const authRoute_1 = __importDefault(require("./routes/authRoute"));
 const homeRoute_1 = __importDefault(require("./routes/homeRoute"));
@@ -28,8 +27,7 @@ app.use(express_1.default.static('public'));
 // routes
 app.use('/', homeRoute_1.default);
 app.use('/auth', authRoute_1.default);
-// ui routes
-app.use('/auth/login', (_, res) => {
+app.all(/.*/, (_req, res) => {
     res.sendFile((0, node_path_1.join)(__dirname, '../public/index.html'));
 });
 // server
@@ -37,3 +35,4 @@ server.listen(PORT, () => {
     // eslint-disable-next-line no-console
     console.log(`server running on port:${PORT}`);
 });
+// npx eslint --fix /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/index.ts

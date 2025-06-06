@@ -54,10 +54,12 @@ router.post('/login/google', (req, res) => __awaiter(void 0, void 0, void 0, fun
 }));
 router.get('/me', middleware_1.authenticate, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const location = 'router - /me';
+    let emailBfre = '';
     try {
         if (!req.user)
             throw new Error(const_1.UN_AUTHORIZED);
         const { email } = req.user;
+        emailBfre = email;
         const user = yield (0, authService_1.getUserByEmail)({ email });
         if (!user)
             throw new Error(const_1.UN_AUTHORIZED);
@@ -77,7 +79,38 @@ router.get('/me', middleware_1.authenticate, (req, res) => __awaiter(void 0, voi
             res,
             code: 500,
             resBody: {
-                user: const_1.UNKNOWN_USER,
+                user: emailBfre,
+                location,
+                error: err
+            }
+        });
+    }
+}));
+router.post('/logout', middleware_1.authenticate, (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const location = 'router - /logout';
+    let emailBfre = '';
+    try {
+        if (!req.user)
+            throw new Error(const_1.UN_AUTHORIZED);
+        const { email } = req.user;
+        emailBfre = email;
+        yield (0, authService_1.logoutHndlr)({ email: email, res });
+        (0, globalResFn_1.globalResFn)({
+            res,
+            code: 200,
+            resBody: {
+                user: email,
+                location,
+                message: const_1.LOGGED_OUT_SUCCESSFULLY
+            }
+        });
+    }
+    catch (err) {
+        (0, globalResFn_1.globalResFn)({
+            res,
+            code: 500,
+            resBody: {
+                user: emailBfre,
                 location,
                 error: err
             }

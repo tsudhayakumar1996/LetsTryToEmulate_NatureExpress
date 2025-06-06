@@ -65,7 +65,7 @@ exports.dcdeCookie = dcdeCookie;
 const logoutHndlr = (_a) => __awaiter(void 0, [_a], void 0, function* ({ email, res }) {
     yield (0, exports.findByEmailAndUpdateIfExistOrCreate)({
         email,
-        objToSet: { accessToken: '', expiryDate: 0, refreshToken: 'hello', picture: '', name: '' }
+        objToSet: { accessToken: '', expiryDate: 0, refreshToken: '', picture: '', name: '' }
     });
     (0, cookiesHlpr_1.clearCookie)(res);
 });
