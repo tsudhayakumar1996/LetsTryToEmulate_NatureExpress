@@ -1,9 +1,14 @@
 import { Router } from 'express'
-import { UN_AUTHORIZED, UNKNOWN_USER } from '../const'
+import { LOGGED_OUT_SUCCESSFULLY, UN_AUTHORIZED, UNKNOWN_USER } from '../const'
 import { globalResFn } from '../helper/globalResFn'
 import { oAuthClient } from '../helper/oAuthClient'
 import { authenticate } from '../middleware'
-import { dcdeIdTknAndSetCookie, findByEmailAndUpdateIfExistOrCreate, getUserByEmail } from '../services/authService'
+import {
+    dcdeIdTknAndSetCookie,
+    findByEmailAndUpdateIfExistOrCreate,
+    getUserByEmail,
+    logoutHndlr
+} from '../services/authService'
 import type { ExprsReqUsrExtntdType } from '../types/common'
 
 const router = Router()
@@ -57,9 +62,11 @@ router.post('/login/google', async (req, res) => {
 
 router.get('/me', authenticate, async (req: ExprsReqUsrExtntdType, res) => {
     const location = 'router - /me'
+    let emailBfre = ''
     try {
         if (!req.user) throw new Error(UN_AUTHORIZED)
         const { email } = req.user
+        emailBfre = email
 
         const user = await getUserByEmail({ email })
         if (!user) throw new Error(UN_AUTHORIZED)
@@ -79,7 +86,39 @@ router.get('/me', authenticate, async (req: ExprsReqUsrExtntdType, res) => {
             res,
             code: 500,
             resBody: {
-                user: UNKNOWN_USER,
+                user: emailBfre,
+                location,
+                error: err
+            }
+        })
+    }
+})
+
+router.post('/logout', authenticate, async (req: ExprsReqUsrExtntdType, res) => {
+    const location = 'router - /logout'
+    let emailBfre = ''
+    try {
+        if (!req.user) throw new Error(UN_AUTHORIZED)
+        const { email } = req.user
+        emailBfre = email
+
+        await logoutHndlr({ email: email, res })
+
+        globalResFn({
+            res,
+            code: 200,
+            resBody: {
+                user: email,
+                location,
+                message: LOGGED_OUT_SUCCESSFULLY
+            }
+        })
+    } catch (err) {
+        globalResFn({
+            res,
+            code: 500,
+            resBody: {
+                user: emailBfre,
                 location,
                 error: err
             }
