@@ -1,1 +1,0 @@
-import{j as r,a9 as t,r as e,aa as a}from"./index-DpFFfK3A.js";import{C as n}from"./CircularProgress-QLCEuaJ_.js";const o=()=>r.jsx(t,{children:r.jsx(n,{})}),c=({children:s})=>r.jsx(e.Suspense,{fallback:r.jsx(o,{}),children:s});function i(){return r.jsx(c,{children:r.jsx(a,{})})}export{i as default};

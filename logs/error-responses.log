@@ -1,0 +1,960 @@
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:19:34'
+}
+{
+  message: 'Found another active session or unauthorized, plz login again',
+  stack: 'Error: Found another active session or unauthorized, plz login again\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:40:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:20:02'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:27:27'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:27:53'
+}
+{
+  message: 'Found another active session or unauthorized, plz login again',
+  stack: 'Error: Found another active session or unauthorized, plz login again\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:40:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:29:02'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:29:14'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:30:15'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:30:56'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:36:56'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:37:06'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:37:45'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:39:38'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:40:05'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:46:19'
+}
+{
+  message: 'Found another active session or unauthorized, plz login again',
+  stack: 'Error: Found another active session or unauthorized, plz login again\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:40:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 07:47:23'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 21:30:40'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 21:32:13'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 21:42:01'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 21:46:38'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 21:50:55'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:05:31'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:05:52'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:06:21'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:08:56'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:09:19'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:14:10'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:16:23'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:16:42'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:16:58'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:17:00'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:39:59'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:40:26'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:42:00'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:47:51'
+}
+{
+  message: 'Found another active session or unauthorized, plz login again',
+  stack: 'Error: Found another active session or unauthorized, plz login again\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:40:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 22:49:07'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-10 23:22:25'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 08:10:20'
+}
+{
+  message: 'Found another active session or unauthorized, plz login again',
+  stack: 'Error: Found another active session or unauthorized, plz login again\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:40:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at fulfilled (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:5:58)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 21:15:10'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:37:22'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:39:38'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:39:38'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:41:58'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:41:58'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:42:23'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:42:23'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:47:37'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:47:37'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:52:21'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:52:21'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:56:06'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:56:06'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 22:56:43'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 23:03:54'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 23:03:54'
+}
+{
+  message: 'Un authorized',
+  stack: 'Error: Un authorized\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:23:19\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:4:12)\n' +
+    '    at authenticate (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/src/middleware/index.ts:14:92)\n' +
+    '    at Layer.handleRequest (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/udhay/Documents/LetsTryToEmulateNature/LetsTryToEmulate_NatureExpress/node_modules/router/index.js:435:11)',
+  name: 'Error',
+  location: 'middleware - authenticate',
+  level: 'error',
+  timestamp: '2025-06-11 23:29:24'
+}

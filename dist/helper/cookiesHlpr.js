@@ -4,7 +4,7 @@ exports.clearCookie = exports.setCookie = void 0;
 const cookieOption = {
     httpOnly: true,
     secure: true,
-    sameSite: 'lax',
+    sameSite: 'none',
     path: '/'
     // maxAge: 60 * 60 * 1000
 };

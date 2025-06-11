@@ -13,6 +13,7 @@ import { ExprsReqUsrExtntdType } from '../types/common'
 
 export const authenticate = async (req: ExprsReqUsrExtntdType, res: Response, next: any) => {
     const location = 'middleware - authenticate'
+    let emailBfre = ''
     try {
         const {
             cookies: { access_token: cookie }
@@ -25,6 +26,7 @@ export const authenticate = async (req: ExprsReqUsrExtntdType, res: Response, ne
         // attach decoded user obj with req
         const { email: decodedEmail } = dcdeCookie({ cookie })
         req.user = { email: decodedEmail }
+        emailBfre = decodedEmail
 
         const user = await getUserByEmail({ email: decodedEmail })
         if (!user) {
@@ -65,7 +67,7 @@ export const authenticate = async (req: ExprsReqUsrExtntdType, res: Response, ne
         globalResFn({
             res,
             code: 500,
-            resBody: { location, user: UNKNOWN_USER, error: err }
+            resBody: { location, user: emailBfre ?? UNKNOWN_USER, error: err }
         })
     }
 }
